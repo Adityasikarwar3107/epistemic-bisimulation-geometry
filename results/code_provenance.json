@@ -1,0 +1,68 @@
+{
+  "note": "Each run manifest records the SHA-256 of the code that produced it (run_sha256). The released files differ from those only in docstrings and comments, which the logic fingerprint ignores, except where changed_definitions is listed.",
+  "files": {
+    "ebg.py": {
+      "run_sha256": "a293546f912960e1c430801383f4b6b06a3f5e152237a90494146683f89a2f5d",
+      "release_sha256": "6164ca1abf30a09a1a0cc789453e5e04a07c9e7cbef73c8edf74c159faf3c0d4",
+      "run_logic": "e9c6345494cdbb86fa06ed689bfc9587ed6984202df43ea883a1572623197b37",
+      "release_logic": "e9c6345494cdbb86fa06ed689bfc9587ed6984202df43ea883a1572623197b37",
+      "logic_identical": true
+    },
+    "finite_batch.py": {
+      "run_sha256": "3d2bfe9d7e6b7508c819b55199bcacd54f8e3a2893e56943dfe110c155331bfb",
+      "release_sha256": "7bdc09bcf958df5e6ca1e6479563dc470da1f1ec4006565f46a65a340ccb381c",
+      "run_logic": "e729b5a6734035dfb1eedc600a2932a2bd8069fe1f78c1ac5e6a7ef4404e24b5",
+      "release_logic": "e729b5a6734035dfb1eedc600a2932a2bd8069fe1f78c1ac5e6a7ef4404e24b5",
+      "logic_identical": true
+    },
+    "finite_general.py": {
+      "run_sha256": "5015b7e52215349c6a848187656a934a653d0bc461fe9ff9f25668580bb4c541",
+      "release_sha256": "30e1da080b5116e841638f0ed96b515bb118382be21959eb92433d5690c65492",
+      "run_logic": "06740b3a31fa966184eb1d53a8630e59b5d77450d86c7a6b797cc52caa6a0438",
+      "release_logic": "06740b3a31fa966184eb1d53a8630e59b5d77450d86c7a6b797cc52caa6a0438",
+      "logic_identical": true
+    },
+    "neural_primitives.py": {
+      "run_sha256": "32fbb597e46e234d9dd0cc585412c4f8d93a272909c63c69d3bad10323a3b054",
+      "release_sha256": "12fdee1c09c087ed7a6192714b62b86ca364546e52a9dc973af63abacf682d55",
+      "run_logic": "c128205c7b614ae0d6760ef88668dc6ff53080389a633740bfc3c91af3da7c5f",
+      "release_logic": "c128205c7b614ae0d6760ef88668dc6ff53080389a633740bfc3c91af3da7c5f",
+      "logic_identical": true
+    },
+    "run_extended2_study.py": {
+      "run_sha256": "b513dc46bcfd2fa41f2eed379583c1b1c026c9e37499b04ffa0f5b2e000ccf73",
+      "release_sha256": "8116a342d25cfc0974804499bf4eecaf9b079468135a84602c57e3aa920672ff",
+      "run_logic": "02e6e40d33863e99f4ca56b115176e04336658f0a91c6bd5dd9d2874c8fc99bc",
+      "release_logic": "02e6e40d33863e99f4ca56b115176e04336658f0a91c6bd5dd9d2874c8fc99bc",
+      "logic_identical": true
+    },
+    "run_extended_study.py": {
+      "run_sha256": "cd3f71bf8d4a09e3943c6a554f8a451578ffe064746af494cad71c51ab3bd60c",
+      "release_sha256": "7408d37d78c9c5e3be1dd53dc91d8710fc6f3be4cbaade47190906dc062a709b",
+      "run_logic": "fa34ec72dd108c6dee974fc8b987c2d7c6897c26137811d9dec20869da1863cc",
+      "release_logic": "fa34ec72dd108c6dee974fc8b987c2d7c6897c26137811d9dec20869da1863cc",
+      "logic_identical": true
+    },
+    "run_neural_study.py": {
+      "run_sha256": "d67e7bd669348f4daf7534d3f7cb74dbb18db38db8218d76da68a17b8128a5fe",
+      "release_sha256": "ac0cb1c1b393ee321b3812315b71cdf8bc6a37cdb9d2115495c46e3ebefb3007",
+      "run_logic": "99a55590eb9bbd8ed717b6979a9e2bd09184e2c9bbbfdd6533d3fbca59f6adc7",
+      "release_logic": "99a55590eb9bbd8ed717b6979a9e2bd09184e2c9bbbfdd6533d3fbca59f6adc7",
+      "logic_identical": true
+    },
+    "run_verified_study.py": {
+      "run_sha256": "b918442d568e91659c58ed0aa0ccc3e5f9a50ea898fc3cacf70f5f8f2c0445e6",
+      "release_sha256": "dfb571a76f7281f75184f386e5990195c1174b3136ed2ac3302334099a0ad706",
+      "run_logic": "8b88a4e4373b6bd7653101d317b185d35122d4a4158efda2935c9ca39dc4bb55",
+      "release_logic": "b68e1800de1c00fced8bfbb2049783b4a636ab279ada1cc35d39a5691888e589",
+      "logic_identical": false,
+      "changed_definitions": [
+        "budgets"
+      ],
+      "note": "budgets() no longer writes an internal audit of an earlier draft; the V4 rows in clock_budgets.csv are produced exactly as before."
+    }
+  },
+  "withheld_results": {
+    "verified/legacy_budget_audit.csv": "internal audit of an earlier draft; not used in the paper"
+  }
+}

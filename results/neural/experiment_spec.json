@@ -1,0 +1,42 @@
+{
+  "version": "neural-study-v1",
+  "latent": "ring S=6, gamma=0.6 (V1)",
+  "gamma": 0.6,
+  "exogenous_states": 5,
+  "exogenous_kernel": "stay .5, move +-1 mod 5 with .25 each",
+  "observation_dim": 24,
+  "signal_scale": 1.0,
+  "distractor_scale": 1.5,
+  "noise": 0.1,
+  "seeds": [
+    70000,
+    70001,
+    70002,
+    70003,
+    70004
+  ],
+  "methods": [
+    "interval",
+    "point",
+    "raw"
+  ],
+  "epochs": 3000,
+  "batch_pairs": 64,
+  "successors": 8,
+  "ensemble": 5,
+  "beta_cal": 2.0,
+  "zeta": 0.05,
+  "learning_rate": 0.001,
+  "ema": 0.01,
+  "latent_dim": 8,
+  "hidden": 64,
+  "test_observations": 300,
+  "test_pairs": 2000,
+  "eval_epochs": [
+    500,
+    1000,
+    2000,
+    3000
+  ],
+  "scope": "Generative access to successor observations; surrogate intervals are not certificates"
+}

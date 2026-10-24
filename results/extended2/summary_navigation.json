@@ -1,0 +1,39 @@
+{
+  "navigation": [
+    {
+      "navigation": "random",
+      "completed": 32,
+      "runs": 32,
+      "retained_samples": {
+        "mean": 3072.0,
+        "ci95": [
+          3072.0,
+          3072.0
+        ]
+      },
+      "mean": 867613.0625,
+      "ci95": [
+        858640.5890625,
+        876709.2703125
+      ]
+    },
+    {
+      "navigation": "optimistic",
+      "completed": 32,
+      "runs": 32,
+      "retained_samples": {
+        "mean": 3072.0,
+        "ci95": [
+          3072.0,
+          3072.0
+        ]
+      },
+      "mean": 25469.46875,
+      "ci95": [
+        25364.90625,
+        25571.28359375
+      ]
+    }
+  ],
+  "elapsed_seconds": 885.9156498908997
+}

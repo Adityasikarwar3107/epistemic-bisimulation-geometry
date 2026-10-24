@@ -1,0 +1,793 @@
+{
+  "baselines": [
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 128,
+      "method": "certified",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 1.0,
+      "mean_pair_width": 0.9896454229479847
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 128,
+      "method": "global",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 1.0,
+      "mean_pair_width": 1.0
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 128,
+      "method": "bootstrap_pointwise",
+      "coverage": 0.342,
+      "covered_runs": 171,
+      "coverage_ci95": [
+        0.3004605262940545,
+        0.3854207861680142
+      ],
+      "mean_sup_width": 0.10540460767199564,
+      "mean_pair_width": 0.08872976810992543
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 128,
+      "method": "bootstrap_band",
+      "coverage": 0.912,
+      "covered_runs": 456,
+      "coverage_ci95": [
+        0.8836648293368344,
+        0.9353315424589416
+      ],
+      "mean_sup_width": 0.14530398717165832,
+      "mean_pair_width": 0.14530398717165827
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 128,
+      "method": "plug_in_point",
+      "mean_sup_error": 0.05079281444720833,
+      "global_radius": 1.0
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 512,
+      "method": "certified",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 0.9726899251955623,
+      "mean_pair_width": 0.8843432100531678
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 512,
+      "method": "global",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 1.0,
+      "mean_pair_width": 0.9998660785974628
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 512,
+      "method": "bootstrap_pointwise",
+      "coverage": 0.328,
+      "covered_runs": 164,
+      "coverage_ci95": [
+        0.28697102024394194,
+        0.371077630731192
+      ],
+      "mean_sup_width": 0.05336074476710059,
+      "mean_pair_width": 0.04514445849488626
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 512,
+      "method": "bootstrap_band",
+      "coverage": 0.882,
+      "covered_runs": 441,
+      "coverage_ci95": [
+        0.8504396036842725,
+        0.9089483228272132
+      ],
+      "mean_sup_width": 0.07340046971941422,
+      "mean_pair_width": 0.07340046971941419
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 512,
+      "method": "plug_in_point",
+      "mean_sup_error": 0.026561483110709324,
+      "global_radius": 0.7103352955766303
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 2048,
+      "method": "certified",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 0.681896847264853,
+      "mean_pair_width": 0.599817362345025
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 2048,
+      "method": "global",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 0.7564936929737539,
+      "mean_pair_width": 0.727044747149927
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 2048,
+      "method": "bootstrap_pointwise",
+      "coverage": 0.374,
+      "covered_runs": 187,
+      "coverage_ci95": [
+        0.33144252901706234,
+        0.41805687632847527
+      ],
+      "mean_sup_width": 0.027041715989345287,
+      "mean_pair_width": 0.02283123897804411
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 2048,
+      "method": "bootstrap_band",
+      "coverage": 0.89,
+      "covered_runs": 445,
+      "coverage_ci95": [
+        0.8592341552268561,
+        0.9160509445931445
+      ],
+      "mean_sup_width": 0.03697338371151932,
+      "mean_pair_width": 0.03697338371151931
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 2048,
+      "method": "plug_in_point",
+      "mean_sup_error": 0.01317744377588826,
+      "global_radius": 0.37824684648687695
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 8192,
+      "method": "certified",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 0.39599641672409547,
+      "mean_pair_width": 0.35959934300949503
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 8192,
+      "method": "global",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 0.3999955345191962,
+      "mean_pair_width": 0.399995534519196
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 8192,
+      "method": "bootstrap_pointwise",
+      "coverage": 0.368,
+      "covered_runs": 184,
+      "coverage_ci95": [
+        0.32561803396100786,
+        0.41195292520423304
+      ],
+      "mean_sup_width": 0.013557200593586468,
+      "mean_pair_width": 0.01144261242112781
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 8192,
+      "method": "bootstrap_band",
+      "coverage": 0.928,
+      "covered_runs": 464,
+      "coverage_ci95": [
+        0.901712562663143,
+        0.949065666874867
+      ],
+      "mean_sup_width": 0.018488621206052578,
+      "mean_pair_width": 0.018488621206052564
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 8192,
+      "method": "plug_in_point",
+      "mean_sup_error": 0.006437912696055256,
+      "global_radius": 0.19999776725959806
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 32768,
+      "method": "certified",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 0.20896235904938065,
+      "mean_pair_width": 0.189165102436011
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 32768,
+      "method": "global",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 0.21031022368161786,
+      "mean_pair_width": 0.21031022368161786
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 32768,
+      "method": "bootstrap_pointwise",
+      "coverage": 0.358,
+      "covered_runs": 179,
+      "coverage_ci95": [
+        0.31592615207191893,
+        0.4017641155905889
+      ],
+      "mean_sup_width": 0.006797722198804855,
+      "mean_pair_width": 0.005747652269589806
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 32768,
+      "method": "bootstrap_band",
+      "coverage": 0.914,
+      "covered_runs": 457,
+      "coverage_ci95": [
+        0.8859063306539441,
+        0.9370632334338127
+      ],
+      "mean_sup_width": 0.009252073510423866,
+      "mean_pair_width": 0.009252073510423845
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 32768,
+      "method": "plug_in_point",
+      "mean_sup_error": 0.0032692945243997244,
+      "global_radius": 0.1051551118408089
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 131072,
+      "method": "certified",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 0.10932743146370942,
+      "mean_pair_width": 0.09892965531382135
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 131072,
+      "method": "global",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 0.11006993195639181,
+      "mean_pair_width": 0.11006993195639181
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 131072,
+      "method": "bootstrap_pointwise",
+      "coverage": 0.354,
+      "covered_runs": 177,
+      "coverage_ci95": [
+        0.3120549279725162,
+        0.39768308262212343
+      ],
+      "mean_sup_width": 0.0033976203990726114,
+      "mean_pair_width": 0.0028802261302041795
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 131072,
+      "method": "bootstrap_band",
+      "coverage": 0.92,
+      "covered_runs": 460,
+      "coverage_ci95": [
+        0.8926545356436476,
+        0.9422338800711657
+      ],
+      "mean_sup_width": 0.0046153348041209855,
+      "mean_pair_width": 0.004615334804120961
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 131072,
+      "method": "plug_in_point",
+      "mean_sup_error": 0.0016204979524368959,
+      "global_radius": 0.05503496597819591
+    },
+    {
+      "model": "ring6_g0.6",
+      "method": "certified",
+      "whole_run_successes": 500,
+      "runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ]
+    },
+    {
+      "model": "ring6_g0.6",
+      "method": "global",
+      "whole_run_successes": 500,
+      "runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ]
+    },
+    {
+      "model": "ring6_g0.6",
+      "method": "bootstrap_pointwise",
+      "whole_run_successes": 1,
+      "runs": 500,
+      "coverage_ci95": [
+        5.0634334007415215e-05,
+        0.011092476898968787
+      ]
+    },
+    {
+      "model": "ring6_g0.6",
+      "method": "bootstrap_band",
+      "whole_run_successes": 297,
+      "runs": 500,
+      "coverage_ci95": [
+        0.5495040458914182,
+        0.6373778342516959
+      ]
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 128,
+      "method": "certified",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 1.0,
+      "mean_pair_width": 0.9971683473757189
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 128,
+      "method": "global",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 1.0,
+      "mean_pair_width": 1.0
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 128,
+      "method": "bootstrap_pointwise",
+      "coverage": 0.476,
+      "covered_runs": 238,
+      "coverage_ci95": [
+        0.4314785029700201,
+        0.5208068360624456
+      ],
+      "mean_sup_width": 0.07666393561757373,
+      "mean_pair_width": 0.059258125851674906
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 128,
+      "method": "bootstrap_band",
+      "coverage": 0.918,
+      "covered_runs": 459,
+      "coverage_ci95": [
+        0.8904010568890371,
+        0.9405145362644117
+      ],
+      "mean_sup_width": 0.09651979438896405,
+      "mean_pair_width": 0.096519794388964
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 128,
+      "method": "plug_in_point",
+      "mean_sup_error": 0.030776153618595765,
+      "global_radius": 1.0
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 512,
+      "method": "certified",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 1.0,
+      "mean_pair_width": 0.9840070232514447
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 512,
+      "method": "global",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 1.0,
+      "mean_pair_width": 1.0
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 512,
+      "method": "bootstrap_pointwise",
+      "coverage": 0.474,
+      "covered_runs": 237,
+      "coverage_ci95": [
+        0.42949912528824696,
+        0.518809993767635
+      ],
+      "mean_sup_width": 0.03921361409633193,
+      "mean_pair_width": 0.030392769962007033
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 512,
+      "method": "bootstrap_band",
+      "coverage": 0.908,
+      "covered_runs": 454,
+      "coverage_ci95": [
+        0.8791929673892575,
+        0.9318566958433456
+      ],
+      "mean_sup_width": 0.04831055389541351,
+      "mean_pair_width": 0.0483105538954135
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 512,
+      "method": "plug_in_point",
+      "mean_sup_error": 0.01593227413628865,
+      "global_radius": 1.0
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 2048,
+      "method": "certified",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 0.9948645328857127,
+      "mean_pair_width": 0.906256941982665
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 2048,
+      "method": "global",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 1.0,
+      "mean_pair_width": 1.0
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 2048,
+      "method": "bootstrap_pointwise",
+      "coverage": 0.45,
+      "covered_runs": 225,
+      "coverage_ci95": [
+        0.40580141170299466,
+        0.494793110488549
+      ],
+      "mean_sup_width": 0.019684553745029875,
+      "mean_pair_width": 0.015340792709183013
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 2048,
+      "method": "bootstrap_band",
+      "coverage": 0.91,
+      "covered_runs": 455,
+      "coverage_ci95": [
+        0.881427078322658,
+        0.9335959912454309
+      ],
+      "mean_sup_width": 0.024304241894904575,
+      "mean_pair_width": 0.02430424189490456
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 2048,
+      "method": "plug_in_point",
+      "mean_sup_error": 0.008030376047912255,
+      "global_radius": 1.0
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 8192,
+      "method": "certified",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 0.9663328567088164,
+      "mean_pair_width": 0.7997665738942361
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 8192,
+      "method": "global",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 1.0,
+      "mean_pair_width": 0.9997036367232642
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 8192,
+      "method": "bootstrap_pointwise",
+      "coverage": 0.452,
+      "covered_runs": 226,
+      "coverage_ci95": [
+        0.4077723415863749,
+        0.4967983932419744
+      ],
+      "mean_sup_width": 0.009883354571607196,
+      "mean_pair_width": 0.00769629352192344
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 8192,
+      "method": "bootstrap_band",
+      "coverage": 0.874,
+      "covered_runs": 437,
+      "coverage_ci95": [
+        0.8416860057009945,
+        0.9018038822152771
+      ],
+      "mean_sup_width": 0.012131564594203592,
+      "mean_pair_width": 0.012131564594203576
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 8192,
+      "method": "plug_in_point",
+      "mean_sup_error": 0.004121230909470947,
+      "global_radius": 0.8106976261254776
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 32768,
+      "method": "certified",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 0.7176740116952213,
+      "mean_pair_width": 0.5701051300918498
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 32768,
+      "method": "global",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 0.8455943496034672,
+      "mean_pair_width": 0.7393736604505898
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 32768,
+      "method": "bootstrap_pointwise",
+      "coverage": 0.46,
+      "covered_runs": 230,
+      "coverage_ci95": [
+        0.4156631315627584,
+        0.5048124614637598
+      ],
+      "mean_sup_width": 0.004951855189006793,
+      "mean_pair_width": 0.0038518224540358445
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 32768,
+      "method": "bootstrap_band",
+      "coverage": 0.898,
+      "covered_runs": 449,
+      "coverage_ci95": [
+        0.8680735394352805,
+        0.9231077067733116
+      ],
+      "mean_sup_width": 0.006073107163044786,
+      "mean_pair_width": 0.006073107163044771
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 32768,
+      "method": "plug_in_point",
+      "mean_sup_error": 0.0020059881642498028,
+      "global_radius": 0.4257125223171967
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 131072,
+      "method": "certified",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 0.39674087354523224,
+      "mean_pair_width": 0.31585158928768964
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 131072,
+      "method": "global",
+      "coverage": 1.0,
+      "covered_runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ],
+      "mean_sup_width": 0.44514545649221055,
+      "mean_pair_width": 0.4399880701976422
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 131072,
+      "method": "bootstrap_pointwise",
+      "coverage": 0.454,
+      "covered_runs": 227,
+      "coverage_ci95": [
+        0.4097439793161812,
+        0.49880296894873544
+      ],
+      "mean_sup_width": 0.002472565080577241,
+      "mean_pair_width": 0.001926510955194499
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 131072,
+      "method": "bootstrap_band",
+      "coverage": 0.886,
+      "covered_runs": 443,
+      "coverage_ci95": [
+        0.8548315334010386,
+        0.9125050971200304
+      ],
+      "mean_sup_width": 0.0030305745223415063,
+      "mean_pair_width": 0.00303057452234149
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 131072,
+      "method": "plug_in_point",
+      "mean_sup_error": 0.00100790853064734,
+      "global_radius": 0.2225727282461053
+    },
+    {
+      "model": "ring8_g0.9",
+      "method": "certified",
+      "whole_run_successes": 500,
+      "runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ]
+    },
+    {
+      "model": "ring8_g0.9",
+      "method": "global",
+      "whole_run_successes": 500,
+      "runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ]
+    },
+    {
+      "model": "ring8_g0.9",
+      "method": "bootstrap_pointwise",
+      "whole_run_successes": 10,
+      "runs": 500,
+      "coverage_ci95": [
+        0.009631429586433347,
+        0.03647240829220973
+      ]
+    },
+    {
+      "model": "ring8_g0.9",
+      "method": "bootstrap_band",
+      "whole_run_successes": 292,
+      "runs": 500,
+      "coverage_ci95": [
+        0.5394058116659277,
+        0.6275951238286801
+      ]
+    }
+  ],
+  "elapsed_seconds": 4680.691423416138
+}

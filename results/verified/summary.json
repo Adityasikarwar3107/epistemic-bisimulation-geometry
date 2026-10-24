@@ -1,0 +1,433 @@
+{
+  "calibration": [
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 0,
+      "mean_width": 1.0,
+      "mean_error": 0.19364736185646042,
+      "coverage": 1.0,
+      "max_majorant_violation": 0.0
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 128,
+      "mean_width": 1.0,
+      "mean_error": 0.1937535267063829,
+      "coverage": 1.0,
+      "max_majorant_violation": 0.0
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 512,
+      "mean_width": 0.9726899251955623,
+      "mean_error": 0.18462964648183072,
+      "coverage": 1.0,
+      "max_majorant_violation": 0.0
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 2048,
+      "mean_width": 0.681896847264853,
+      "mean_error": 0.062472521088676514,
+      "coverage": 1.0,
+      "max_majorant_violation": 0.0
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 8192,
+      "mean_width": 0.39599641672409547,
+      "mean_error": 0.006569874057206803,
+      "coverage": 1.0,
+      "max_majorant_violation": 0.0
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 32768,
+      "mean_width": 0.20896235904938065,
+      "mean_error": 0.0033126341567029038,
+      "coverage": 1.0,
+      "max_majorant_violation": 0.0
+    },
+    {
+      "model": "ring6_g0.6",
+      "n_per_row": 131072,
+      "mean_width": 0.10932743146370942,
+      "mean_error": 0.0016365785957157752,
+      "coverage": 1.0,
+      "max_majorant_violation": 0.0
+    },
+    {
+      "model": "ring6_g0.6",
+      "whole_run_successes": 500,
+      "runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ]
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 0,
+      "mean_width": 1.0,
+      "mean_error": 0.3167258245987032,
+      "coverage": 1.0,
+      "max_majorant_violation": 0.0
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 128,
+      "mean_width": 1.0,
+      "mean_error": 0.3167258245987032,
+      "coverage": 1.0,
+      "max_majorant_violation": 0.0
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 512,
+      "mean_width": 1.0,
+      "mean_error": 0.315501782709941,
+      "coverage": 1.0,
+      "max_majorant_violation": 0.0
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 2048,
+      "mean_width": 0.9948645328857127,
+      "mean_error": 0.22455408297394627,
+      "coverage": 1.0,
+      "max_majorant_violation": 0.0
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 8192,
+      "mean_width": 0.9663328567088164,
+      "mean_error": 0.15435660820257413,
+      "coverage": 1.0,
+      "max_majorant_violation": 0.0
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 32768,
+      "mean_width": 0.7176740116952213,
+      "mean_error": 0.025296661083210967,
+      "coverage": 1.0,
+      "max_majorant_violation": 0.0
+    },
+    {
+      "model": "ring8_g0.9",
+      "n_per_row": 131072,
+      "mean_width": 0.39674087354523224,
+      "mean_error": 0.008032344667706996,
+      "coverage": 1.0,
+      "max_majorant_violation": 0.0
+    },
+    {
+      "model": "ring8_g0.9",
+      "whole_run_successes": 500,
+      "runs": 500,
+      "coverage_ci95": [
+        0.9926493899480923,
+        1.0
+      ]
+    }
+  ],
+  "propagation": {
+    "rows": 1800,
+    "scope": "Known current rows/dynamics; sampled Bernoulli successor rewards"
+  },
+  "ablations": {
+    "groups": [
+      {
+        "task": "corridor",
+        "priority": "local",
+        "navigation": "random",
+        "completed": 32,
+        "runs": 32,
+        "mean": 39458.0625,
+        "ci95": [
+          38356.5546875,
+          40591.7625
+        ]
+      },
+      {
+        "task": "corridor",
+        "priority": "local",
+        "navigation": "optimistic",
+        "completed": 32,
+        "runs": 32,
+        "mean": 3559.5625,
+        "ci95": [
+          3553.71875,
+          3565.8125
+        ]
+      },
+      {
+        "task": "corridor",
+        "priority": "propagated",
+        "navigation": "random",
+        "completed": 32,
+        "runs": 32,
+        "mean": 39458.0625,
+        "ci95": [
+          38356.5546875,
+          40591.7625
+        ]
+      },
+      {
+        "task": "corridor",
+        "priority": "propagated",
+        "navigation": "optimistic",
+        "completed": 32,
+        "runs": 32,
+        "mean": 3559.5625,
+        "ci95": [
+          3553.71875,
+          3565.8125
+        ]
+      },
+      {
+        "task": "branching_return",
+        "priority": "local",
+        "navigation": "random",
+        "completed": 32,
+        "runs": 32,
+        "mean": 2906.09375,
+        "ci95": [
+          2851.465625,
+          2961.5953125
+        ]
+      },
+      {
+        "task": "branching_return",
+        "priority": "local",
+        "navigation": "optimistic",
+        "completed": 32,
+        "runs": 32,
+        "mean": 2811.28125,
+        "ci95": [
+          2805.59375,
+          2817.25
+        ]
+      },
+      {
+        "task": "branching_return",
+        "priority": "propagated",
+        "navigation": "random",
+        "completed": 32,
+        "runs": 32,
+        "mean": 2906.09375,
+        "ci95": [
+          2851.465625,
+          2961.5953125
+        ]
+      },
+      {
+        "task": "branching_return",
+        "priority": "propagated",
+        "navigation": "optimistic",
+        "completed": 32,
+        "runs": 32,
+        "mean": 2811.40625,
+        "ci95": [
+          2805.78125,
+          2817.34375
+        ]
+      }
+    ],
+    "paired_priority_contrasts": [
+      {
+        "task": "corridor",
+        "navigation": "random",
+        "contrast": "propagated minus local, interaction steps",
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "task": "corridor",
+        "navigation": "optimistic",
+        "contrast": "propagated minus local, interaction steps",
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "task": "branching_return",
+        "navigation": "random",
+        "contrast": "propagated minus local, interaction steps",
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "task": "branching_return",
+        "navigation": "optimistic",
+        "contrast": "propagated minus local, interaction steps",
+        "mean": 0.125,
+        "ci95": [
+          0.0,
+          0.375
+        ]
+      }
+    ],
+    "endpoint": "Retain 64 samples per row; not a metric-resolution or theorem event"
+  },
+  "budgets": [
+    {
+      "kind": "calculated theorem quota, not observed stopping time",
+      "d": 1,
+      "m": 4,
+      "M": 4,
+      "epsilon": 0.0078125,
+      "cover_queries": 5,
+      "n_per_unknown_row": 574361,
+      "resolution_query_budget": 2297445
+    },
+    {
+      "kind": "calculated theorem quota, not observed stopping time",
+      "d": 1,
+      "m": 6,
+      "M": 6,
+      "epsilon": 0.005208333333333333,
+      "cover_queries": 7,
+      "n_per_unknown_row": 1411889,
+      "resolution_query_budget": 8471335
+    },
+    {
+      "kind": "calculated theorem quota, not observed stopping time",
+      "d": 1,
+      "m": 8,
+      "M": 8,
+      "epsilon": 0.00390625,
+      "cover_queries": 9,
+      "n_per_unknown_row": 2660853,
+      "resolution_query_budget": 21286825
+    },
+    {
+      "kind": "calculated theorem quota, not observed stopping time",
+      "d": 1,
+      "m": 10,
+      "M": 10,
+      "epsilon": 0.003125,
+      "cover_queries": 11,
+      "n_per_unknown_row": 4340382,
+      "resolution_query_budget": 43403821
+    },
+    {
+      "kind": "calculated theorem quota, not observed stopping time",
+      "d": 1,
+      "m": 12,
+      "M": 12,
+      "epsilon": 0.0026041666666666665,
+      "cover_queries": 13,
+      "n_per_unknown_row": 6465225,
+      "resolution_query_budget": 77582701
+    },
+    {
+      "kind": "calculated theorem quota, not observed stopping time",
+      "d": 2,
+      "m": 4,
+      "M": 16,
+      "epsilon": 0.0078125,
+      "cover_queries": 17,
+      "n_per_unknown_row": 756066,
+      "resolution_query_budget": 12097057
+    },
+    {
+      "kind": "calculated theorem quota, not observed stopping time",
+      "d": 2,
+      "m": 6,
+      "M": 36,
+      "epsilon": 0.005208333333333333,
+      "cover_queries": 37,
+      "n_per_unknown_row": 1940301,
+      "resolution_query_budget": 69850837
+    },
+    {
+      "kind": "calculated theorem quota, not observed stopping time",
+      "d": 2,
+      "m": 8,
+      "M": 64,
+      "epsilon": 0.00390625,
+      "cover_queries": 65,
+      "n_per_unknown_row": 3751079,
+      "resolution_query_budget": 240069057
+    },
+    {
+      "kind": "calculated theorem quota, not observed stopping time",
+      "d": 2,
+      "m": 10,
+      "M": 100,
+      "epsilon": 0.003125,
+      "cover_queries": 101,
+      "n_per_unknown_row": 6226660,
+      "resolution_query_budget": 622666001
+    },
+    {
+      "kind": "calculated theorem quota, not observed stopping time",
+      "d": 2,
+      "m": 12,
+      "M": 144,
+      "epsilon": 0.0026041666666666665,
+      "cover_queries": 145,
+      "n_per_unknown_row": 9396540,
+      "resolution_query_budget": 1353101761
+    },
+    {
+      "kind": "calculated theorem quota, not observed stopping time",
+      "d": 3,
+      "m": 4,
+      "M": 64,
+      "epsilon": 0.0078125,
+      "cover_queries": 65,
+      "n_per_unknown_row": 937770,
+      "resolution_query_budget": 60017281
+    },
+    {
+      "kind": "calculated theorem quota, not observed stopping time",
+      "d": 3,
+      "m": 6,
+      "M": 216,
+      "epsilon": 0.005208333333333333,
+      "cover_queries": 217,
+      "n_per_unknown_row": 2468712,
+      "resolution_query_budget": 533241793
+    },
+    {
+      "kind": "calculated theorem quota, not observed stopping time",
+      "d": 3,
+      "m": 8,
+      "M": 512,
+      "epsilon": 0.00390625,
+      "cover_queries": 513,
+      "n_per_unknown_row": 4841306,
+      "resolution_query_budget": 2478748673
+    },
+    {
+      "kind": "calculated theorem quota, not observed stopping time",
+      "d": 3,
+      "m": 10,
+      "M": 1000,
+      "epsilon": 0.003125,
+      "cover_queries": 1001,
+      "n_per_unknown_row": 8112938,
+      "resolution_query_budget": 8112938001
+    },
+    {
+      "kind": "calculated theorem quota, not observed stopping time",
+      "d": 3,
+      "m": 12,
+      "M": 1728,
+      "epsilon": 0.0026041666666666665,
+      "cover_queries": 1729,
+      "n_per_unknown_row": 12327856,
+      "resolution_query_budget": 21302535169
+    }
+  ]
+}

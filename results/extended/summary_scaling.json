@@ -1,0 +1,229 @@
+{
+  "scaling": [
+    {
+      "states": 16,
+      "n_per_row": 2048,
+      "coverage": 1.0,
+      "mean_sup_width": 0.6868706797769099,
+      "mean_pair_width": 0.5639879426745489,
+      "mean_error": 0.2023847599074713,
+      "true_block_separation": 0.2587426261298268
+    },
+    {
+      "states": 16,
+      "n_per_row": 8192,
+      "coverage": 1.0,
+      "mean_sup_width": 0.37707441798697583,
+      "mean_pair_width": 0.3149335763544534,
+      "mean_error": 0.10651785888299811,
+      "true_block_separation": 0.2587426261298268
+    },
+    {
+      "states": 16,
+      "n_per_row": 32768,
+      "coverage": 1.0,
+      "mean_sup_width": 0.19774493639195367,
+      "mean_pair_width": 0.16481404038745837,
+      "mean_error": 0.05573221661391159,
+      "true_block_separation": 0.2587426261298268
+    },
+    {
+      "states": 16,
+      "n_per_row": 131072,
+      "coverage": 1.0,
+      "mean_sup_width": 0.10332212468194524,
+      "mean_pair_width": 0.08601349537812993,
+      "mean_error": 0.029063082736968185,
+      "true_block_separation": 0.2587426261298268,
+      "mean_anchors": 4.0,
+      "max_anchors": 4,
+      "max_anchor_distortion": 0.0598921379893025,
+      "median_certificate_seconds": 0.06392419999974663,
+      "certificate_seconds": [
+        0.07198719999905734,
+        0.06970460000047751,
+        0.06392419999974663,
+        0.057703799999217154,
+        0.055349300000671064
+      ]
+    },
+    {
+      "states": 16,
+      "whole_run_successes": 100,
+      "runs": 100,
+      "coverage_ci95": [
+        0.9637833073548235,
+        1.0
+      ]
+    },
+    {
+      "states": 32,
+      "n_per_row": 2048,
+      "coverage": 1.0,
+      "mean_sup_width": 0.7000444586607215,
+      "mean_pair_width": 0.5822258118877786,
+      "mean_error": 0.2112293911701315,
+      "true_block_separation": 0.2587426261298268
+    },
+    {
+      "states": 32,
+      "n_per_row": 8192,
+      "coverage": 1.0,
+      "mean_sup_width": 0.38496274937140584,
+      "mean_pair_width": 0.32498509800215813,
+      "mean_error": 0.11102656061051663,
+      "true_block_separation": 0.2587426261298268
+    },
+    {
+      "states": 32,
+      "n_per_row": 32768,
+      "coverage": 1.0,
+      "mean_sup_width": 0.20177506472890827,
+      "mean_pair_width": 0.16987075521521305,
+      "mean_error": 0.05802979848758936,
+      "true_block_separation": 0.2587426261298268
+    },
+    {
+      "states": 32,
+      "n_per_row": 131072,
+      "coverage": 1.0,
+      "mean_sup_width": 0.10530262075722316,
+      "mean_pair_width": 0.0884726808787836,
+      "mean_error": 0.030183464849939612,
+      "true_block_separation": 0.2587426261298268,
+      "mean_anchors": 4.0,
+      "max_anchors": 4,
+      "max_anchor_distortion": 0.06188057055780674,
+      "median_certificate_seconds": 0.13538510000034876,
+      "certificate_seconds": [
+        0.1359135000002425,
+        0.1267595999997866,
+        0.13467759999912232,
+        0.13538510000034876,
+        0.1439169999994192
+      ]
+    },
+    {
+      "states": 32,
+      "whole_run_successes": 100,
+      "runs": 100,
+      "coverage_ci95": [
+        0.9637833073548235,
+        1.0
+      ]
+    },
+    {
+      "states": 64,
+      "n_per_row": 2048,
+      "coverage": 1.0,
+      "mean_sup_width": 0.7097306027796496,
+      "mean_pair_width": 0.5919313472581966,
+      "mean_error": 0.21636942748738672,
+      "true_block_separation": 0.2587426261298268
+    },
+    {
+      "states": 64,
+      "n_per_row": 8192,
+      "coverage": 1.0,
+      "mean_sup_width": 0.39063000693118616,
+      "mean_pair_width": 0.3309940451202567,
+      "mean_error": 0.11330864296478493,
+      "true_block_separation": 0.2587426261298268
+    },
+    {
+      "states": 64,
+      "n_per_row": 32768,
+      "coverage": 1.0,
+      "mean_sup_width": 0.2044812581634101,
+      "mean_pair_width": 0.17302349932464697,
+      "mean_error": 0.05918227360675062,
+      "true_block_separation": 0.2587426261298268
+    },
+    {
+      "states": 64,
+      "n_per_row": 131072,
+      "coverage": 1.0,
+      "mean_sup_width": 0.10663222281040127,
+      "mean_pair_width": 0.0901096693710281,
+      "mean_error": 0.030784553830613147,
+      "true_block_separation": 0.2587426261298268,
+      "mean_anchors": 4.0,
+      "max_anchors": 4,
+      "max_anchor_distortion": 0.06265125501153437,
+      "median_certificate_seconds": 0.277053399999204,
+      "certificate_seconds": [
+        0.277053399999204,
+        0.26998029999958817,
+        0.28243079999992915,
+        0.27057090000016615,
+        0.29250409999986005
+      ]
+    },
+    {
+      "states": 64,
+      "whole_run_successes": 100,
+      "runs": 100,
+      "coverage_ci95": [
+        0.9637833073548235,
+        1.0
+      ]
+    },
+    {
+      "states": 128,
+      "n_per_row": 2048,
+      "coverage": 1.0,
+      "mean_sup_width": 0.7176846154227157,
+      "mean_pair_width": 0.5982369738242275,
+      "mean_error": 0.22004838212380495,
+      "true_block_separation": 0.2587426261298268
+    },
+    {
+      "states": 128,
+      "n_per_row": 8192,
+      "coverage": 1.0,
+      "mean_sup_width": 0.3955641872237545,
+      "mean_pair_width": 0.335070038885571,
+      "mean_error": 0.11520461421977622,
+      "true_block_separation": 0.2587426261298268
+    },
+    {
+      "states": 128,
+      "n_per_row": 32768,
+      "coverage": 1.0,
+      "mean_sup_width": 0.2068257613602653,
+      "mean_pair_width": 0.17514218907024337,
+      "mean_error": 0.06005008299420908,
+      "true_block_separation": 0.2587426261298268
+    },
+    {
+      "states": 128,
+      "n_per_row": 131072,
+      "coverage": 1.0,
+      "mean_sup_width": 0.10775752441685159,
+      "mean_pair_width": 0.09119704122597133,
+      "mean_error": 0.03121494945859371,
+      "true_block_separation": 0.2587426261298268,
+      "mean_anchors": 4.0,
+      "max_anchors": 4,
+      "max_anchor_distortion": 0.06304264827774173,
+      "median_certificate_seconds": 1.3901850999991439,
+      "certificate_seconds": [
+        1.4377301999993506,
+        1.3582698999998684,
+        1.3901850999991439,
+        1.3322061999988364,
+        1.4340232000013202
+      ]
+    },
+    {
+      "states": 128,
+      "whole_run_successes": 100,
+      "runs": 100,
+      "coverage_ci95": [
+        0.9637833073548235,
+        1.0
+      ]
+    }
+  ],
+  "elapsed_seconds": 875.1161675453186
+}

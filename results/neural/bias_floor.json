@@ -1,0 +1,23 @@
+{
+  "note": "post hoc diagnostic; true metric as ground cost; 3000 random latent pairs per m",
+  "rows": [
+    {
+      "successors": 8,
+      "same_latent_target_mean": 0.1319828551268768,
+      "distinct_pair_bias_mean": 0.020815303460587683,
+      "same_pairs": 477
+    },
+    {
+      "successors": 32,
+      "same_latent_target_mean": 0.06666289526855795,
+      "distinct_pair_bias_mean": 0.007458802724964507,
+      "same_pairs": 499
+    },
+    {
+      "successors": 128,
+      "same_latent_target_mean": 0.03374313037390342,
+      "distinct_pair_bias_mean": 0.0017307498913747945,
+      "same_pairs": 540
+    }
+  ]
+}

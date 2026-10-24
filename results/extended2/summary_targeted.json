@@ -1,0 +1,107 @@
+{
+  "targeted": {
+    "groups": [
+      {
+        "task": "riverswim",
+        "rule": "count",
+        "certified": 32,
+        "runs": 32,
+        "steps": {
+          "mean": 3292.84375,
+          "ci95": [
+            3251.99921875,
+            3337.3453125
+          ]
+        },
+        "target_share": {
+          "mean": 0.0663432252460777,
+          "ci95": [
+            0.06443805197439559,
+            0.06845097402688993
+          ]
+        }
+      },
+      {
+        "task": "riverswim",
+        "rule": "adjoint_target",
+        "certified": 32,
+        "runs": 32,
+        "steps": {
+          "mean": 3284.875,
+          "ci95": [
+            3242.9328125,
+            3322.18828125
+          ]
+        },
+        "target_share": {
+          "mean": 0.06868629888794012,
+          "ci95": [
+            0.06687232174587308,
+            0.07073389684898848
+          ]
+        }
+      },
+      {
+        "task": "corridor",
+        "rule": "count",
+        "certified": 32,
+        "runs": 32,
+        "steps": {
+          "mean": 4809.03125,
+          "ci95": [
+            4444.84296875,
+            5191.978906249999
+          ]
+        },
+        "target_share": {
+          "mean": 0.16395884632276297,
+          "ci95": [
+            0.16241432526825966,
+            0.165375164973536
+          ]
+        }
+      },
+      {
+        "task": "corridor",
+        "rule": "adjoint_target",
+        "certified": 32,
+        "runs": 32,
+        "steps": {
+          "mean": 3641.21875,
+          "ci95": [
+            3425.21875,
+            3876.7906249999996
+          ]
+        },
+        "target_share": {
+          "mean": 0.20180744224183167,
+          "ci95": [
+            0.19779269472597066,
+            0.20587939689747736
+          ]
+        }
+      }
+    ],
+    "contrasts": [
+      {
+        "task": "riverswim",
+        "contrast": "adjoint_target minus count",
+        "mean": -7.96875,
+        "ci95": [
+          -53.50078125,
+          30.81328124999999
+        ]
+      },
+      {
+        "task": "corridor",
+        "contrast": "adjoint_target minus count",
+        "mean": -1167.8125,
+        "ci95": [
+          -1340.48671875,
+          -1007.1851562500001
+        ]
+      }
+    ]
+  },
+  "elapsed_seconds": 59.7745361328125
+}

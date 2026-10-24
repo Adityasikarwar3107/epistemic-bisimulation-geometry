@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+reports/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+figures/*.svg
+figures/figure_report.json

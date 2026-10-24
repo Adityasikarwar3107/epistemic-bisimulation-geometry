@@ -1,0 +1,10 @@
+{
+  "version": "anytime-posthoc-v1",
+  "reason": "V7 cost differences were traced to ties in the stopped planner; this diagnostic breaks ties toward executing an unresolved row",
+  "tie_tolerance": 1e-12,
+  "priorities": [
+    "uniform",
+    "local",
+    "propagated"
+  ]
+}

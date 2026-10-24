@@ -1,0 +1,45 @@
+{
+  "python": "3.13.14",
+  "numpy": "2.5.1",
+  "scipy": "1.18.0",
+  "platform": "Windows-11-10.0.26340-SP0",
+  "spec_sha256": "b92f35ea9a63819a14ff822ac6ea494fd9f085f6992c256be721d4565f1f95b2",
+  "code_sha256": {
+    "run_extended2_study.py": "b513dc46bcfd2fa41f2eed379583c1b1c026c9e37499b04ffa0f5b2e000ccf73",
+    "finite_general.py": "5015b7e52215349c6a848187656a934a653d0bc461fe9ff9f25668580bb4c541",
+    "finite_batch.py": "3d2bfe9d7e6b7508c819b55199bcacd54f8e3a2893e56943dfe110c155331bfb",
+    "ebg.py": "a293546f912960e1c430801383f4b6b06a3f5e152237a90494146683f89a2f5d",
+    "run_extended_study.py": "cd3f71bf8d4a09e3943c6a554f8a451578ffe064746af494cad71c51ab3bd60c",
+    "run_verified_study.py": "b918442d568e91659c58ed0aa0ccc3e5f9a50ea898fc3cacf70f5f8f2c0445e6"
+  },
+  "frozen_inputs": {
+    "calibration_0_n0.npz": "e031a96357c5df733e6b101c379e18b9b8c23e79a844cc1713c9887b3f0a3ee0",
+    "calibration_0_n128.npz": "f2719bbf8b4f191d9d40c9d6c589674a75fbebc55134b502f560e09e3d25e1d1",
+    "calibration_0_n131072.npz": "9c4091c00835436746f2044978431c1bd14fcd3c9c4854583187705d088942ff",
+    "calibration_0_n2048.npz": "ed1b15e7af91c9887e0a22029f4ff844825eb263657d36748530e0b9fa4f1e5b",
+    "calibration_0_n32768.npz": "c1be513774886e27402214f1326e43c4e8ed83d40d35eac4da29c7c34cf82601",
+    "calibration_0_n512.npz": "b23cc2fd04f1fbbb57e300416ba78f79811bb41134db7c88bc18c30b483f3202",
+    "calibration_0_n8192.npz": "e03b198a4cbe04ac60b605e24284bec2ce07f3bd793897327fc0df97a13a7497",
+    "calibration_1_n0.npz": "1f78c569fb49149ebd5b6ca978e1daadf9ee2af0e6ca13f7870acd241c2825bc",
+    "calibration_1_n128.npz": "1d3be7c4770fc4bfe21cc1efa9bf36838f9fbf09ab203319386ff972c1d35bb9",
+    "calibration_1_n131072.npz": "d4532cb07b13ce50529ae180e0d62ffc6cf95f2277b3af734d500ca2b7d4f15c",
+    "calibration_1_n2048.npz": "b2dfb8fbc2ba2f3b559194a7785895fc6f894b93a70f22c10e85a41353ff3611",
+    "calibration_1_n32768.npz": "bfc43bbaa16f3440a63270a5d8bf1aeace7fe3a063bc74cae5ca87591264043b",
+    "calibration_1_n512.npz": "a67bcf2acb6fa8796b849ad2cbded61fbf7c2eb28b7eba6dbc22ac5ca4a5b482",
+    "calibration_1_n8192.npz": "4064784a86c7541c6c15cf05a1acde23cda128dd9fa8cb58fa896e8c3f1fe0f0"
+  },
+  "result_files": {
+    "priorities.csv": "65848c4f97162552766adb39b949a95457179a2d94f2d14afe97118bf9ad56d3",
+    "riverswim_generative.csv": "8a7c42a3a8407c9c874681cb4179190f6861a07495e7ed15b484a3e33e28f93d",
+    "riverswim_navigation.csv": "f3249e6a57e2140152a112714484f5e43e7b653014a19ecb58a58ae6c45e1b12",
+    "targeted.csv": "a42d1c63e98ecfd5182926ab113e327534d16dc0f288cd8c8729f0719ed94fa0",
+    "v1_refined.csv": "a1bc27172b396043c9a0bd2a9507495d6f1a809acd6a82864e97525422f2b664",
+    "v6_refined.csv": "489c1bcbfe8b843f8a729d24d06f5a13f9e9d914457b11b9185dae0ccadb17d1",
+    "summary_navigation.json": "7ff242950e562eab3402bda64cabe08ea4c9a2b317e645aaf0d32657c257b12e",
+    "summary_priorities.json": "2d00cb50575b04bbc0e92458f84741e603c39b7af59364b7fbe2d27f3c600a2e",
+    "summary_riverswim.json": "4e9d035f6bb97cd9aabbbd64ef3a7eaa380234ca2113670acb9864725a70e2ea",
+    "summary_targeted.json": "3fb3559b39f0bc38e67e841c6a07e5b097ff3a16447ce09087a50009b34a166d",
+    "summary_v1.json": "9ac237fa4835b6a39d0441924177cd5f891a594584cdc1e1d3e33ea2a11828b5",
+    "summary_v6.json": "8d76efc4614ed14a303a1d3530e51fb2e8ee61aaa5fa14bf432601afe776fe75"
+  }
+}

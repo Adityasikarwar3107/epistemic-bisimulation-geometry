@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper below."
+title: "Epistemic Bisimulation Geometry: code, specifications, and seed-level results"
+version: 1.0.0
+date-released: 2026-10-22
+license: MIT
+repository-code: "https://github.com/Adityasikarwar3107/epistemic-bisimulation-geometry"
+keywords:
+  - reinforcement learning
+  - bisimulation metrics
+  - optimal transport
+  - epistemic uncertainty
+  - exploration
+  - representation learning
+authors: &authors
+  - family-names: Gupta
+    given-names: Deepak
+  - family-names: Gupta
+    given-names: Pranda Prasanta
+  - family-names: Sikarwar
+    given-names: Aditya
+  - family-names: Dhangar
+    given-names: Sanidhya
+  - family-names: Sharma
+    given-names: Akhilesh Kumar
+  - family-names: Abrayev
+    given-names: Bakhrom
+    orcid: "https://orcid.org/0009-0000-4835-5116"
+  - family-names: Ashirova
+    given-names: Anorgul
+    orcid: "https://orcid.org/0000-0002-3399-7527"
+preferred-citation:
+  type: unpublished
+  title: "Epistemic Bisimulation Geometry: Finite-State Certificates for Representation and Exploration"
+  authors: *authors
+  year: 2026
+references:
+  - type: article
+    title: "Bisimulation Geometry: Unifying Representation Learning and Exploration in Reinforcement Learning"
+    authors:
+      - family-names: Gupta
+        given-names: Deepak
+      - family-names: Sikarwar
+        given-names: Aditya
+      - family-names: Dhangar
+        given-names: Sanidhya
+      - family-names: Jha
+        given-names: Chanakya Kumar
+      - family-names: Jha
+        given-names: Pallavi
+      - family-names: Sharma
+        given-names: Akhilesh Kumar
+      - family-names: Abdullayev
+        given-names: Vugar
+    journal: "IEEE Access"
+    year: 2026
+    doi: "10.1109/ACCESS.2026.3743463"

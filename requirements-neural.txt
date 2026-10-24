@@ -1,0 +1,2 @@
+# Optional algebra/gradient checks for neural_primitives.py, not an RL benchmark.
+torch==2.14.0

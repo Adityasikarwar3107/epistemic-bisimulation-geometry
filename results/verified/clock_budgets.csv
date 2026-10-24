@@ -1,0 +1,16 @@
+kind,d,m,M,epsilon,cover_queries,n_per_unknown_row,resolution_query_budget
+"calculated theorem quota, not observed stopping time",1,4,4,0.0078125,5,574361,2297445
+"calculated theorem quota, not observed stopping time",1,6,6,0.005208333333333333,7,1411889,8471335
+"calculated theorem quota, not observed stopping time",1,8,8,0.00390625,9,2660853,21286825
+"calculated theorem quota, not observed stopping time",1,10,10,0.003125,11,4340382,43403821
+"calculated theorem quota, not observed stopping time",1,12,12,0.0026041666666666665,13,6465225,77582701
+"calculated theorem quota, not observed stopping time",2,4,16,0.0078125,17,756066,12097057
+"calculated theorem quota, not observed stopping time",2,6,36,0.005208333333333333,37,1940301,69850837
+"calculated theorem quota, not observed stopping time",2,8,64,0.00390625,65,3751079,240069057
+"calculated theorem quota, not observed stopping time",2,10,100,0.003125,101,6226660,622666001
+"calculated theorem quota, not observed stopping time",2,12,144,0.0026041666666666665,145,9396540,1353101761
+"calculated theorem quota, not observed stopping time",3,4,64,0.0078125,65,937770,60017281
+"calculated theorem quota, not observed stopping time",3,6,216,0.005208333333333333,217,2468712,533241793
+"calculated theorem quota, not observed stopping time",3,8,512,0.00390625,513,4841306,2478748673
+"calculated theorem quota, not observed stopping time",3,10,1000,0.003125,1001,8112938,8112938001
+"calculated theorem quota, not observed stopping time",3,12,1728,0.0026041666666666665,1729,12327856,21302535169

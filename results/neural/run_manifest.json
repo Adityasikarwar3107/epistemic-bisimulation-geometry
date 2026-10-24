@@ -1,0 +1,11 @@
+{
+  "spec_sha256": "ea12976817a165b6ac37b86695b3d7341c5355fa7ad025e55c1f3fd49ebd906e",
+  "code_sha256": {
+    "run_neural_study.py": "d67e7bd669348f4daf7534d3f7cb74dbb18db38db8218d76da68a17b8128a5fe",
+    "neural_primitives.py": "32fbb597e46e234d9dd0cc585412c4f8d93a272909c63c69d3bad10323a3b054"
+  },
+  "result_files": {
+    "neural.csv": "0301bc613f93848694d853fa52d68d95be9215eb5c4c0e5d4ac94cf6a201324d",
+    "summary.json": "f450d89f32f3e33c3a1a83a47aa83a034c6e3d9c8c7851605611b2db925e50e7"
+  }
+}

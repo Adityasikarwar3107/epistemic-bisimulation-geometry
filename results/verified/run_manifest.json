@@ -1,0 +1,36 @@
+{
+  "python": "3.13.14",
+  "numpy": "2.5.1",
+  "scipy": "1.18.0",
+  "platform": "Windows-11-10.0.26340-SP0",
+  "elapsed_seconds_this_invocation": 377.698828458786,
+  "spec_sha256": "63c545cc7ccdb19bbc237375d3a4044e7c0990de540064e61040809fb48f3959",
+  "code_sha256": {
+    "run_verified_study.py": "b918442d568e91659c58ed0aa0ccc3e5f9a50ea898fc3cacf70f5f8f2c0445e6",
+    "finite_batch.py": "3d2bfe9d7e6b7508c819b55199bcacd54f8e3a2893e56943dfe110c155331bfb",
+    "ebg.py": "a293546f912960e1c430801383f4b6b06a3f5e152237a90494146683f89a2f5d"
+  },
+  "result_files": {
+    "ablation.csv": "0c534c2bb3bcb84e313bf71a2e9aac0cd455a282be10fc0d2028b5a0253a1e94",
+    "calibration.csv": "90effed96a1a0b7aaec78793f0ac93ffba225b4962ffcd4b6af2effeff8eb9fe",
+    "calibration_0_n0.npz": "e031a96357c5df733e6b101c379e18b9b8c23e79a844cc1713c9887b3f0a3ee0",
+    "calibration_0_n128.npz": "f2719bbf8b4f191d9d40c9d6c589674a75fbebc55134b502f560e09e3d25e1d1",
+    "calibration_0_n131072.npz": "9c4091c00835436746f2044978431c1bd14fcd3c9c4854583187705d088942ff",
+    "calibration_0_n2048.npz": "ed1b15e7af91c9887e0a22029f4ff844825eb263657d36748530e0b9fa4f1e5b",
+    "calibration_0_n32768.npz": "c1be513774886e27402214f1326e43c4e8ed83d40d35eac4da29c7c34cf82601",
+    "calibration_0_n512.npz": "b23cc2fd04f1fbbb57e300416ba78f79811bb41134db7c88bc18c30b483f3202",
+    "calibration_0_n8192.npz": "e03b198a4cbe04ac60b605e24284bec2ce07f3bd793897327fc0df97a13a7497",
+    "calibration_1_n0.npz": "1f78c569fb49149ebd5b6ca978e1daadf9ee2af0e6ca13f7870acd241c2825bc",
+    "calibration_1_n128.npz": "1d3be7c4770fc4bfe21cc1efa9bf36838f9fbf09ab203319386ff972c1d35bb9",
+    "calibration_1_n131072.npz": "d4532cb07b13ce50529ae180e0d62ffc6cf95f2277b3af734d500ca2b7d4f15c",
+    "calibration_1_n2048.npz": "b2dfb8fbc2ba2f3b559194a7785895fc6f894b93a70f22c10e85a41353ff3611",
+    "calibration_1_n32768.npz": "bfc43bbaa16f3440a63270a5d8bf1aeace7fe3a063bc74cae5ca87591264043b",
+    "calibration_1_n512.npz": "a67bcf2acb6fa8796b849ad2cbded61fbf7c2eb28b7eba6dbc22ac5ca4a5b482",
+    "calibration_1_n8192.npz": "4064784a86c7541c6c15cf05a1acde23cda128dd9fa8cb58fa896e8c3f1fe0f0",
+    "clock_budgets.csv": "89caed1f76bc69c5fd5eb743455346ffdc127d11fa8106565e450d75e6365cdb",
+    "legacy_budget_audit.csv": "009fb3dc6a6bb8a4bb9b2a0c9d7d4acea5c52085d4d81e92f32144e2fa817b9b",
+    "propagation.csv": "c9b6c9e83cd1d7dc1696f69442d3e94a4afe0db4ac91d87463df3a52e318d7a1"
+  },
+  "access": "generative row samples for V1; partial known model for V2; reset interaction for V3",
+  "unverified_legacy_aggregates_used_as_new_results": false
+}

@@ -1,0 +1,5 @@
+numpy==2.5.1
+scipy==1.18.0
+matplotlib==3.11.1
+pillow==12.2.0
+PyMuPDF==1.28.2

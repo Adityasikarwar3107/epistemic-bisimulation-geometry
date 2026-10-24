@@ -1,0 +1,42 @@
+{
+  "python": "3.13.14",
+  "numpy": "2.5.1",
+  "scipy": "1.18.0",
+  "platform": "Windows-11-10.0.26340-SP0",
+  "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+  "elapsed_seconds_this_invocation": 0.06073117256164551,
+  "spec_sha256": "98d3693ef8df15f9b0af66e5cbf2fe11e58a2a639b86a32c0bc9823f285fc5d9",
+  "code_sha256": {
+    "run_extended_study.py": "cd3f71bf8d4a09e3943c6a554f8a451578ffe064746af494cad71c51ab3bd60c",
+    "finite_batch.py": "3d2bfe9d7e6b7508c819b55199bcacd54f8e3a2893e56943dfe110c155331bfb",
+    "ebg.py": "a293546f912960e1c430801383f4b6b06a3f5e152237a90494146683f89a2f5d",
+    "run_verified_study.py": "b918442d568e91659c58ed0aa0ccc3e5f9a50ea898fc3cacf70f5f8f2c0445e6"
+  },
+  "frozen_inputs": {
+    "calibration_0_n0.npz": "e031a96357c5df733e6b101c379e18b9b8c23e79a844cc1713c9887b3f0a3ee0",
+    "calibration_0_n128.npz": "f2719bbf8b4f191d9d40c9d6c589674a75fbebc55134b502f560e09e3d25e1d1",
+    "calibration_0_n131072.npz": "9c4091c00835436746f2044978431c1bd14fcd3c9c4854583187705d088942ff",
+    "calibration_0_n2048.npz": "ed1b15e7af91c9887e0a22029f4ff844825eb263657d36748530e0b9fa4f1e5b",
+    "calibration_0_n32768.npz": "c1be513774886e27402214f1326e43c4e8ed83d40d35eac4da29c7c34cf82601",
+    "calibration_0_n512.npz": "b23cc2fd04f1fbbb57e300416ba78f79811bb41134db7c88bc18c30b483f3202",
+    "calibration_0_n8192.npz": "e03b198a4cbe04ac60b605e24284bec2ce07f3bd793897327fc0df97a13a7497",
+    "calibration_1_n0.npz": "1f78c569fb49149ebd5b6ca978e1daadf9ee2af0e6ca13f7870acd241c2825bc",
+    "calibration_1_n128.npz": "1d3be7c4770fc4bfe21cc1efa9bf36838f9fbf09ab203319386ff972c1d35bb9",
+    "calibration_1_n131072.npz": "d4532cb07b13ce50529ae180e0d62ffc6cf95f2277b3af734d500ca2b7d4f15c",
+    "calibration_1_n2048.npz": "b2dfb8fbc2ba2f3b559194a7785895fc6f894b93a70f22c10e85a41353ff3611",
+    "calibration_1_n32768.npz": "bfc43bbaa16f3440a63270a5d8bf1aeace7fe3a063bc74cae5ca87591264043b",
+    "calibration_1_n512.npz": "a67bcf2acb6fa8796b849ad2cbded61fbf7c2eb28b7eba6dbc22ac5ca4a5b482",
+    "calibration_1_n8192.npz": "4064784a86c7541c6c15cf05a1acde23cda128dd9fa8cb58fa896e8c3f1fe0f0"
+  },
+  "result_files": {
+    "anytime.csv": "0df3c823d8f1360971c86d6e9e1ac41265d84c74976ad7dcfce360f3e6429e1e",
+    "anytime_posthoc.csv": "5f18d715b076b8f7a0b94b3f6e032fd0b03cbc8c76be9dfa980c26db8959b175",
+    "baselines.csv": "f28fe2187895d513a6b80747a6161b7557cbff4a0030d1f95895e0026ff144f1",
+    "scaling.csv": "a01f796d27433fdaa0ecfd82d1536bbbdf15f2204caf6980de8d5e5c00bc7f94",
+    "summary_anytime.json": "4dbbbc5c6bc52bf1d469598b4dcd1cc095f54155ab0739f08f9add374063ff37",
+    "summary_anytime_posthoc.json": "c49d29bc43e5acbf19765dbd09de41f5ebe056ecf843268af2788e7543f33a75",
+    "summary_baselines.json": "1dbe4a5624a8115f3223d9dad4f34631877255e6fd7e7b002069ab41a991e4a9",
+    "summary_scaling.json": "b4174b8b1bbf2cf96f5238c68256abb937d06a94cdad716b546cf043ff478781",
+    "posthoc_spec.json": "0efdd26455704fc204c2d39fcb134a7222df22d527c21dcefbe419dff804dd82"
+  }
+}
