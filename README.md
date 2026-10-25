@@ -26,7 +26,7 @@ A bisimulation metric tells an agent which states *behave* alike, which makes it
 geometry for exploration and representation learning. There is a catch: the metric is only
 known once the environment has been explored, and exploring well needs the metric.
 
-This repository accompanies a paper ([PDF](paper/epistemic_bisimulation_geometry.pdf)) that breaks the circle by treating the metric as an
+This repository accompanies a paper ([PDF](paper/epistemic_bisimulation_geometry.pdf), [appendices](paper/epistemic_bisimulation_geometry_supplement.pdf)) that breaks the circle by treating the metric as an
 object of **statistical uncertainty**. Instead of a single estimate, every pair of states
 gets an interval that is guaranteed, with probability at least $1-\delta$ and at every
 moment of learning, to contain the true distance:
