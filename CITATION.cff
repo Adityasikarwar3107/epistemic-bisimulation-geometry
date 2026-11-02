@@ -53,5 +53,8 @@ references:
       - family-names: Abdullayev
         given-names: Vugar
     journal: "IEEE Access"
+    volume: 14
+    start: 162936
+    end: 162957
     year: 2026
     doi: "10.1109/ACCESS.2026.3743463"

@@ -205,6 +205,8 @@ This work builds on our companion paper:
              Jha, Chanakya Kumar and Jha, Pallavi and Sharma, Akhilesh Kumar and
              Abdullayev, Vugar},
   journal = {IEEE Access},
+  volume  = {14},
+  pages   = {162936--162957},
   year    = {2026},
   doi     = {10.1109/ACCESS.2026.3743463}
 }
